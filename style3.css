@@ -1,0 +1,320 @@
+.b3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 130vh;
+    font-family: Poppins;
+
+}
+
+.s-one {
+    position: absolute;
+    width: 1px;
+    height: 100vh;
+    background: rgba(0, 0, 0,0.2);
+    left: 25%;
+
+}
+
+.s-two {
+    position: absolute;
+    width: 1px;
+    height: 100vh;
+    background: rgba(0, 0, 0,0.2);
+    left: 50%;
+
+}
+
+
+
+
+.s-three {
+    position: absolute;
+    width: 1px;
+    height: 100vh;
+    background: rgba(0, 0, 0,0.2);
+    left: 75%;
+
+}
+
+
+
+.top-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+
+.top-bar ul li {
+    list-style: none;
+    line-height: 46px;
+    padding: 16px 32px;
+    margin: 0 16px;
+
+}
+
+
+
+.menu-btn {
+    position: absolute;
+    right: 20px;
+    padding: 16px 0 0 0;
+    width: 40px;
+    height: 40px;
+    left: 70%;
+
+}
+
+
+.one, .two {
+    position: absolute;
+    background: #000;
+    width: 30px;
+    height: 2px;
+
+}
+
+.two {
+    margin-top: 12px;
+
+}
+
+
+
+.account {
+    position: absolute;
+    left: 40px;
+}
+
+
+
+.account span {
+    margin-left: 8px;
+
+}
+.logo {
+    position: absolute;
+    left: 75%;
+    font-family: "charm";
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+.search {
+    position: absolute;
+ 
+ left: 60%;
+}
+
+
+.contact {
+    padding: 10px 30px;
+    position: absolute;
+    left: -20px;
+    top: 1180px;
+    transform: rotate(-90deg);
+
+
+}
+
+
+.tag {
+  position: absolute;
+  top: 1166px;
+  left: 152px;
+  padding: 10px 30px;
+}
+
+.year {
+    position: absolute;
+    top: 1356px;
+    left: 75%;
+    padding: 10px 30px;
+
+}
+
+.img img {
+    width: 46%;
+
+
+}
+
+.img {
+    position: absolute;
+    z-index: 0;
+    left: 38%;
+    top: 1006px;
+
+}
+
+.title {
+    position: absolute;
+    font-size: 62px;
+    position: absolute;
+    top: 1276px;
+    left: 15%;
+    font-family: "charm";
+
+}
+
+
+
+
+.line {
+    position: absolute;
+    width: 180px;
+    background: #000;
+    top: 1225px;
+    left: 30%;
+    height: 1px;
+}
+
+.e-shop {
+    position: absolute;
+    padding: 10px 30px;
+    
+    top: 1180px;
+    left: 70%;
+    transform: rotate(90deg);
+}
+
+.tag-line {
+    position: absolute;
+    padding: 10px 30px;
+    color: grey;
+    top: 1450px;
+    left: 70%px;
+    
+}
+
+.media ul  {
+   list-style: none;
+   position: absolute;
+   right: 20px;
+   top: 70%;
+   padding: 10px 10px; 
+}
+
+.media ul li {
+    font-size: 18px;
+    margin: 24px 0;
+
+}
+
+/* animation */
+ 
+.title span {
+    opacity: 0;
+    animation: appear-text 0.0001s linear forwards;
+    animation-delay: 2s;
+}
+
+.title:after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1)forwards;
+    animation-delay: 1.4s;
+}
+
+
+
+
+.tag-line span {
+    opacity: 0;
+    animation: appear-text 0.0001s linear forwards;
+    animation-delay: 2.2s;
+}
+
+.tag-line:after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    animation: rev-block 1.5s cubic-bezier(0.19, 1, 0.22, 1)forwards;
+    animation-delay: 1.8s;
+}
+
+
+
+
+
+
+@keyframes rev-block {
+    0% {
+        left: 0%;
+        width: 0%;
+
+    }
+    50% {
+        left: 0;
+        width: 100%;
+
+    }
+
+    100% {
+        left: 100%;
+        width: 0%;
+    }
+}
+@keyframes appear-text {
+   0% {
+       opacity: 0;
+
+   }
+ 100% {
+     opacity: 1;
+ }
+
+}
+
+
+img {
+    opacity: 0;
+    animation: appear-text 1s linear forwards;
+    animation-delay: 1.4s;
+}
+
+.img:after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #b68c70;
+    position: absolute;
+    animation: rev-img 1.5s cubic-bezier(0.19, 1, 0.22, 1)forwards;
+    animation-delay: 1s;
+}
+
+@keyframes rev-img {
+    0% {
+        left: 0%;
+        width: 0%;
+
+    }
+    50% {
+        left: 0;
+        width: 46%;
+
+    }
+
+    100% {
+        left: 46%;
+        width: 0%;
+    }
+}
+
+
