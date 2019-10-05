@@ -64,7 +64,7 @@
     padding: 16px 0 0 0;
     width: 40px;
     height: 40px;
-    left: 75%;
+    left: 85%;
 
 }
 
@@ -97,7 +97,7 @@
 }
 .logo {
     position: absolute;
-    left: 40%;
+    left: 50%;
     font-family: "charm";
     font-weight: bolder;
     font-size: 20px;
@@ -125,7 +125,7 @@
 
 .tag {
   position: absolute;
-  top: 1150px;
+  top: 1100px;
   left: 10%;
   padding: 10px 30px;
 }
