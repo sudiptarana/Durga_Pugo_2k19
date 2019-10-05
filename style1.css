@@ -9,7 +9,7 @@ b1
 section
 {
 	position: relative;
-	height: 140vh;
+	height: 150vh;
 	animation: color-rotate 10s linear infinite;
 	background: #003444;
 }
@@ -40,7 +40,7 @@ section
 .center1
 {
 	position: fixed;
-	top: 60%;
+	top: 65%;
 }
 
 ul1
